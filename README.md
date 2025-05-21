@@ -11,7 +11,6 @@
 
 ## ✨ Modules
 
-
 ### 📦 ColliderMeshCreator
 Editor window for generating custom MeshColliders:
 - 🔹 Automatically from MeshFilter objects
@@ -39,7 +38,6 @@ Editor window for generating custom MeshColliders:
 
 ---
 👉 [View Release Collider Mesh Tool](https://github.com/SinlessDevil/ColliderMeshTool/releases/tag/collider-mesh-creator-v1.0.0)
----
 
 ### 📦 ConcaveHull v1.0.0 — Geometry API
 Lightweight runtime plugin for generating 2D concave hulls on the XZ plane.
@@ -57,7 +55,6 @@ Lightweight runtime plugin for generating 2D concave hulls on the XZ plane.
 
 ---
 👉 [View Release ConcaveHull ](https://github.com/SinlessDevil/ColliderMeshTool/releases/tag/concave-hull-v1.0.0)
----
 
 ### 📦 PrefabSetupEditor v1.0.0
 Efficient tool for setting up renderers and materials across prefabs and scene objects.
@@ -75,13 +72,11 @@ Efficient tool for setting up renderers and materials across prefabs and scene o
 
 ---
 👉 [View Release PrefabSetupEditor](https://github.com/SinlessDevil/ColliderMeshTool/releases/tag/prefab-setup-editor-v1.0.0)
----
 
 ## 🧰 Requirements
 - Unity **2021.3+**
 - ✅ [Odin Inspector](https://odininspector.com/) (Required)
 - ✅ [ConcaveHull](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/ConcaveHull-v1.0.0) (for mesh generation)
-
 
 ## 🚀 Installation
 1. Download the `.unitypackage` from [Releases](https://github.com/SinlessDevil/ColliderMeshTool/releases)
