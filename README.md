@@ -9,8 +9,8 @@
 > ✅ Supports both algorithmic and manual mesh generation  
 > ✅ All modules can be used independently
 
-
 ## ✨ Modules
+
 
 ### 📦 ColliderMeshCreator
 Editor window for generating custom MeshColliders:
@@ -30,8 +30,16 @@ Editor window for generating custom MeshColliders:
 ![image](https://github.com/user-attachments/assets/5288205c-d1f6-4791-94ad-f718115696ab)
 ![image](https://github.com/user-attachments/assets/f7aa8582-9a20-4713-bf42-5bedef77c5a4)
 
+### 🔧 Quick Controls
+| Action            | Shortcut |
+|-------------------|----------|
+| Add point         | `Q`      |
+| Remove point      | `E`      |
+| Open editor       | `Tools > Collider Mesh Generator` |
+
 ---
-👉 [View Release](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/ColliderMeshCreator-v1.0.0)
+👉 [View Release Collider Mesh Tool](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/ColliderMeshCreator-v1.0.0)
+---
 
 ### 📦 ConcaveHull v1.0.0 — Geometry API
 Lightweight runtime plugin for generating 2D concave hulls on the XZ plane.
@@ -48,8 +56,8 @@ Lightweight runtime plugin for generating 2D concave hulls on the XZ plane.
 ![hull-example](https://github.com/user-attachments/assets/52d27373-eabb-400f-a69f-d03cb41d4327)  
 
 ---
-👉 [View Release](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/ConcaveHull-v1.0.0)
-
+👉 [View Release ConcaveHull ](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/ConcaveHull-v1.0.0)
+---
 
 ### 📦 PrefabSetupEditor v1.0.0
 Efficient tool for setting up renderers and materials across prefabs and scene objects.
@@ -66,7 +74,8 @@ Efficient tool for setting up renderers and materials across prefabs and scene o
 ![prefab-editor](https://github.com/user-attachments/assets/b2c48312-dabe-4191-9e40-ac59bf64b620) 
 
 ---
-👉 [View Release](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/PrefabSetupEditor-v1.0.0)
+👉 [View Release PrefabSetupEditor](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/PrefabSetupEditor-v1.0.0)
+---
 
 ## 🧰 Requirements
 - Unity **2021.3+**
@@ -79,13 +88,3 @@ Efficient tool for setting up renderers and materials across prefabs and scene o
 2. Import it into your Unity project
 3. Install Odin Inspector and (optionally) ConcaveHull
 4. Done! 🎉
-
-## 🔧 Quick Controls
-| Action            | Shortcut |
-|-------------------|----------|
-| Add point         | `Q`      |
-| Remove point      | `E`      |
-| Open editor       | `Tools > Collider Mesh Generator` |
-
-## 📝 About (GitHub profile tagline)
-> Unity Editor toolset for generating mesh colliders, drawing outlines, and editing prefabs — all in one.
