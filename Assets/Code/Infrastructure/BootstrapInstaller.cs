@@ -35,7 +35,6 @@ namespace Code.Infrastructure
         private void BindProgressData() =>
             Container.Bind<IPersistenceProgressService>().To<PersistenceProgressService>().AsSingle();
         
-        
         private void BindStaticData()
         {
             Container.Bind<IStaticDataService>().To<StaticDataService>().AsSingle();
