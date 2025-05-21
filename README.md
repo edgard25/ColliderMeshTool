@@ -38,7 +38,7 @@ Editor window for generating custom MeshColliders:
 | Open editor       | `Tools > Collider Mesh Generator` |
 
 ---
-👉 [View Release Collider Mesh Tool](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/ColliderMeshCreator-v1.0.0)
+👉 [View Release Collider Mesh Tool](https://github.com/SinlessDevil/ColliderMeshTool/releases/tag/collider-mesh-creator-v1.0.0)
 ---
 
 ### 📦 ConcaveHull v1.0.0 — Geometry API
@@ -56,7 +56,7 @@ Lightweight runtime plugin for generating 2D concave hulls on the XZ plane.
 ![hull-example](https://github.com/user-attachments/assets/52d27373-eabb-400f-a69f-d03cb41d4327)  
 
 ---
-👉 [View Release ConcaveHull ](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/ConcaveHull-v1.0.0)
+👉 [View Release ConcaveHull ](https://github.com/SinlessDevil/ColliderMeshTool/releases/tag/concave-hull-v1.0.0)
 ---
 
 ### 📦 PrefabSetupEditor v1.0.0
@@ -74,7 +74,7 @@ Efficient tool for setting up renderers and materials across prefabs and scene o
 ![prefab-editor](https://github.com/user-attachments/assets/b2c48312-dabe-4191-9e40-ac59bf64b620) 
 
 ---
-👉 [View Release PrefabSetupEditor](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/PrefabSetupEditor-v1.0.0)
+👉 [View Release PrefabSetupEditor](https://github.com/SinlessDevil/ColliderMeshTool/releases/tag/prefab-setup-editor-v1.0.0)
 ---
 
 ## 🧰 Requirements
