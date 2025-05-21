@@ -77,7 +77,7 @@ namespace Code.Editors.ColliderMeshCreator
                 : _drawer.Points.Count;
 
             Vector3 basePoint = insertIndex > 0 ? _drawer.Points[insertIndex - 1] : Vector3.zero;
-            Vector3 newPoint = basePoint + Vector3.right * NewPointOffset;
+            Vector3 newPoint = basePoint;
 
             _drawer.Points.Insert(insertIndex, newPoint);
             _activeHandleIndex = insertIndex;
