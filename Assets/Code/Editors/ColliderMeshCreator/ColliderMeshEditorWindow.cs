@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Code.ColliderMeshCreator.Runtime;
 using Plugins.ConcaveHull.Code;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
@@ -110,33 +111,44 @@ namespace Code.Editors.ColliderMeshCreator
         [SerializeField, LabelText("Delete Point Key")]
         private KeyCode _deleteKey = KeyCode.E;
 
-        [BoxGroup("Manual Outline"), PropertyOrder(0), GUIColor("CreateColor")]
+        [BoxGroup("Manual Outline")]
         [Button(ButtonSizes.Large)]
+        [PropertyOrder(1)]
+        [GUIColor(0.2f, 0.6f, 1f)]
         private void CreateManualOutlineObject()
         {
-            GameObject go = new("ManualOutlineDrawer");
-            var drawer = go.AddComponent<ManualOutlineDrawer>();
+            GameObject go = new GameObject("ManualOutlineDrawer");
+            Undo.RegisterCreatedObjectUndo(go, "Create ManualOutlineDrawer");
+            EditorUtility.SetDirty(go);
 
             if (SceneView.lastActiveSceneView != null)
             {
-                var cam = SceneView.lastActiveSceneView.camera;
-                go.transform.position = cam.transform.position + cam.transform.forward * 5f;
+                Vector3 camPos = SceneView.lastActiveSceneView.camera.transform.position;
+                Vector3 camForward = SceneView.lastActiveSceneView.camera.transform.forward;
+                go.transform.position = camPos + camForward * 5f;
             }
+            
+            EditorApplication.delayCall += () =>
+            {
+                if (go != null)
+                {
+                    var drawer = go.AddComponent<ManualOutlineDrawer>();
+                    var so = new SerializedObject(drawer);
+                    so.FindProperty("_lineColor").colorValue = _manualLineColor;
+                    so.FindProperty("_pointColor").colorValue = _manualPointColor;
+                    so.FindProperty("_pointSize").floatValue = _manualPointSize;
+                    so.ApplyModifiedProperties();
 
-            var so = new SerializedObject(drawer);
-            so.FindProperty("_lineColor").colorValue = _manualLineColor;
-            so.FindProperty("_pointColor").colorValue = _manualPointColor;
-            so.FindProperty("_pointSize").floatValue = _manualPointSize;
-            so.ApplyModifiedProperties();
-
-            Selection.activeGameObject = go;
+                    Selection.activeGameObject = go;
+                }
+            };
         }
 
-        [BoxGroup("Manual Outline"), PropertyOrder(1)]
+        [BoxGroup("Manual Outline"), PropertyOrder(2)]
         [SerializeField, LabelText("Target Manual Outline Drawers")]
         private List<ManualOutlineDrawer> _targetsManualOutlineDrawers = new();
 
-        [BoxGroup("Manual Outline"), PropertyOrder(2), GUIColor("ManualGenColor")]
+        [BoxGroup("Manual Outline"), PropertyOrder(3), GUIColor("ManualGenColor")]
         [Button(ButtonSizes.Large)]
         private void GenerateColliderFromManualDrawers()
         {

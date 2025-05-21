@@ -3,7 +3,7 @@ using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
 
-namespace Code.Editors.ColliderMeshCreator
+namespace Code.ColliderMeshCreator.Runtime
 {
     [ExecuteAlways]
     public class ManualOutlineDrawer : MonoBehaviour
